@@ -1,5 +1,5 @@
 /* ============================================================
-   4A REAL ESTATE — SITE BEHAVIOURS
+   MGC DEVELOPMENTS SALES REPRESENTATIVE — SITE BEHAVIOURS
    WhatsApp, calculator, lead form, menu, reveals, counters,
    lightbox, rayed-motion-safe
    ============================================================ */
@@ -10,8 +10,8 @@
   var PHONE_TEL = "+923333959207";
   var WA_NUMBER = "923333959207";
   var GENERAL_MSG =
-    "Hello Muhammad Ayan, I found 4A Real Estate and I'm interested in " +
-    "property investment. Please share the available projects and payment plans.";
+    "Hello Muhammad Ayan, I'm interested in " +
+    "MGC Developments projects. Please share the available projects and payment plans.";
 
   var reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
@@ -222,7 +222,7 @@
     calcWaBtn.addEventListener("click", function () {
       var r = calc();
       var msg =
-        "Hello Ayan, I used the 4A Real Estate calculator.\n" +
+        "Hello Ayan, I used the investment calculator on your website.\n" +
         "Property Value: " + fmtPkr(r.v) + "\n" +
         "Down Payment: " + r.d + "% (" + fmtPkr(r.initial) + ")\n" +
         "Duration: " + r.m + " months\n" +
@@ -242,7 +242,7 @@
   var MATCH_COPY = {
     Apartment: {
       title: "A home — residential focus",
-      text: "Start with the residential options 4A represents right now — MGC Jewel (1–2 bedroom, jacuzzi and beach-view apartments, penthouses), El Casa by MGC (1–3 bedroom with Margalla views), Liberty Terraces (open terrace apartments) or MGC-5 (Phase 7). Tell Ayan your size preference and area, and he'll shortlist real availability on WhatsApp."
+      text: "Start with the residential options I represent — MGC Jewel (1–2 bedroom, jacuzzi and beach-view apartments, penthouses), El Casa by MGC (1–3 bedroom with Margalla views), Liberty Terraces (open terrace apartments) or MGC-5 (Phase 7). Tell Ayan your size preference and area, and he'll shortlist real availability on WhatsApp."
     },
     Commercial: {
       title: "A commercial investment",
@@ -254,7 +254,7 @@
     },
     "Long-Term Investment": {
       title: "A long-term investment",
-      text: "Bahria Town Phase 8 anchors flagship appreciation (MGC Jewel, Liberty Terraces), Mumtaz City offers airport-side growth (El Casa), and GT Road hospitality compounds over many years. Let's map your budget against 4A's current shortlist."
+      text: "Bahria Town Phase 8 anchors flagship appreciation (MGC Jewel, Liberty Terraces), Mumtaz City offers airport-side growth (El Casa), and GT Road hospitality compounds over many years. Let's map your budget against the best matching projects."
     },
     "Not Sure": {
       title: "Not sure yet — perfect.",
@@ -295,7 +295,7 @@
     if (matchText) matchText.innerHTML = lead + c.text + budgetNote;
     if (matchWa) {
       matchWa.setAttribute("href", waUrl(
-        "Hello Ayan, I used the 4A Real Estate matching questionnaire.\n" +
+        "Hello Ayan, I used the property matching questionnaire on your website.\n" +
         "Budget: " + budget + "\n" +
         "Property Type: " + type + "\n" +
         "Preferred Location: " + loc + "\n" +
@@ -332,7 +332,7 @@
     var message = document.getElementById("message").value.trim();
 
     var msg =
-      "New property inquiry from the 4A Real Estate website.\n" +
+      "New property inquiry from Muhammad Ayan Khan's website.\n" +
       "Name: " + name + "\n" +
       "Phone: " + phone + "\n" +
       "Interested In: " + interest + "\n" +

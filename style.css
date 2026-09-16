@@ -1,5 +1,5 @@
 /* ============================================================
-   4A REAL ESTATE — PREMIUM CINEMATIC DESIGN SYSTEM
+   MGC DEVELOPMENTS SALES REPRESENTATIVE — PREMIUM CINEMATIC DESIGN SYSTEM
    Charcoal · Navy · Gold | Playfair Display + Manrope
    ============================================================ */
 
@@ -548,6 +548,30 @@ body.menu-open { overflow: hidden; overscroll-behavior: contain; }
   margin-top: 2.4rem;
 }
 
+.hero-cred {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem 1rem;
+  margin-top: 1.8rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid rgba(229, 196, 92, 0.22);
+  font-size: 0.9rem;
+  color: rgba(232, 227, 213, 0.7);
+  letter-spacing: 0.02em;
+}
+.hero-cred strong {
+  color: var(--gold-lt);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+.hero-cred a {
+  color: rgba(232, 227, 213, 0.85);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+.hero-cred a:hover { color: var(--gold-lt); }
+
 /* Location indicator — bottom left */
 .hero-locs {
   position: absolute;
@@ -637,13 +661,13 @@ body.menu-open { overflow: hidden; overscroll-behavior: contain; }
   background: var(--ink);
 }
 .intro::before {
-  content: "4A";
+  content: "MGC";
   position: absolute;
   right: 0;
-  top: 4%;
+  top: 8%;
   font-family: var(--font-display);
   font-weight: 800;
-  font-size: clamp(9rem, 22vw, 20rem);
+  font-size: clamp(7rem, 16vw, 15rem);
   line-height: 1;
   color: rgba(255, 255, 255, 0.028);
   pointer-events: none;
